@@ -10,7 +10,7 @@ public class dragAndDrop extends CommonMethods {
 	public static void main(String[] args) throws InterruptedException {
 		
 	
-	CommonMethods.setUpDriver("chrome", "https://jqueryui.com/droppable/");
+	CommonMethods.setUpDriver("firefox", "https://jqueryui.com/droppable/");
 	WebElement frame=driver.findElement(By.cssSelector("iframe.demo-frame"));
 	driver.switchTo().frame(frame);
 	WebElement drag=driver.findElement(By.cssSelector("div#draggable"));

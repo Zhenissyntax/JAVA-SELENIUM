@@ -8,6 +8,7 @@ import utils.CommonMethods;
 
 public class Task3 extends CommonMethods{
 	public static void main(String[] args) throws InterruptedException {
+		
 		CommonMethods.setUpDriver("chrome", "http://uitestpractice.com/Students/Index");
 		WebElement act=driver.findElement(By.xpath("//a[text()='Actions']"));
 		act.click();
